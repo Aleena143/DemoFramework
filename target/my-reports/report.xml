@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="22.182">
+    <testcase classname="Mobile Automation cases" name="verify" time="1.819">
+        <system-out><![CDATA[Given tap on EN and click NoNo button.......................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

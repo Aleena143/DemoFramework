@@ -1,0 +1,53 @@
+[
+  {
+    "line": 9,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-07T12:14:36.379Z",
+        "line": 16,
+        "name": "verify",
+        "description": "",
+        "id": "mobile-automation-cases;verify",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1807176600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "tap on EN and click NoNo button",
+            "match": {
+              "location": "demo.steps.MobileHomePageSteps.clickOnENButton()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@mobilecases"
+          },
+          {
+            "name": "@TC_mobilecases"
+          }
+        ]
+      }
+    ],
+    "name": "Mobile Automation cases",
+    "description": "",
+    "id": "mobile-automation-cases",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/scenarios/DemoFeatureMobile.feature",
+    "tags": [
+      {
+        "name": "@mobilecases",
+        "type": "Tag",
+        "location": {
+          "line": 8,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

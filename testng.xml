@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name ="demo.utilities.ReportListener"/>
+</listeners>
+  <test thread-count="5" name="Mobile Test" enabled="true">
+  <parameter name="deviceName" value="Moto G4 Plus"/>
+  <parameter name="udid" value="ZY223SQGTN"/>
+  <parameter name="platformName" value="Android"/>
+  <parameter name="platformVersion" value="7"/>
+  <parameter name="appPackage" value="io.selendroid.testapp"/>
+  <parameter name="appActivity" value="io.selendroid.testapp.HomeScreenActivity"/>
+    <classes>
+      <class name="demo.runner.TestRunner"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="WebTest" enabled="false">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="demo.runner.TestRunner"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
